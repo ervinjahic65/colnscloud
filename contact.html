@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" data-mutiny-loaded="true">
+<html lang="es" data-mutiny-loaded="true">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Custome Styles -->
         <link rel="stylesheet" href="files/style.css">
         <link id="mktoForms2BaseStyle" rel="stylesheet" type="text/css" href="files/forms2.css">
         <link id="mktoForms2ThemeStyle" rel="stylesheet" type="text/css" href="files/forms2-theme-round.css">
         <link rel="stylesheet" href="files/custom.css">
         <link rel="icon" type="image/png" href="files/favicon.png" sizes="16x16">
 
-        <title>Automate Security - Contact Us</title>
+        <title>Automate Security - Contáctenos</title>
         <style>
 
             /* Contact Form Styles - Custom styles for the form itself */
@@ -96,7 +95,6 @@
     </head>
     <body class="nantu_4999">
         <main>
-            <!-- About Us Section -->
             <div class="section-wrapper">
                 <section class="hero-section">
                     <div class="container">
@@ -108,78 +106,74 @@
                         <div class="main-wrap">
                             <div class="content-wrap">
                                 <h1 class="hero-title">
-                                  Contact us
+                                  Contáctenos
                                 </h1>
                                 <p>
-                                    Please fill out the form below, and our team will get back to you as soon as possible.
+                                    Por favor, complete el siguiente formulario y nuestro equipo se comunicará con usted lo antes posible.
                                 </p>
                                 <br>
                                 
-                                <!-- Contact Form -->
                                 <form id="form">
                                     <div>
-                                        <label for="name">Name</label>
+                                        <label for="name">Nombre</label>
                                         <input type="text" id="name" name="name" required>
                                     </div>
                                     <div>
-                                        <label for="email">Email</label>
+                                        <label for="email">Correo electrónico</label>
                                         <input type="email" id="email" name="email" required>
                                     </div>
                                     <div>
-                                        <label for="subject">Subject</label>
+                                        <label for="subject">Asunto</label>
                                         <input type="text" id="subject" name="subject" required>
                                     </div>
                                     <div>
-                                        <label for="message">Message</label>
+                                        <label for="message">Mensaje</label>
                                         <textarea id="message" name="message" rows="6" required></textarea>
                                     </div>
                                     <div style="text-align: center;">
                                         <button type="submit">
-                                            Send Message
+                                            Enviar Mensaje
                                         </button>
                                     </div>
                                 </form>
-                                <!-- End Contact Form -->
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </section>
             </div>
         </main>
 
-        <!-- footer start -->
         <section class="footer">
             <div class="container">
                 <div class="footer-content">
                     <div class="copyright">
-                        © Automate Security 2025. All rights reserved. <br><br>
-                        <p style="font-size: 14px;">
-                          <strong>CIN:</strong> L65910DL2018PLC020045 <br>
-                          <strong>Registered Office Address:</strong> No.29/2A, 1st Cross, Nanjappa Layout, <br> Adarsha Nagar, Nagashettyhalli, Bangalore - 560094, Karnataka, India <br>
-                          <strong>Phone:</strong> 0688 3971990
-                      </p>
-                    </div>
+                            © Automate Security 2025. Todos los derechos reservados. <br><br>
+                            <p style="font-size: 14px;">
+                              <strong>NIT:</strong> 900.001.268-1 <br>
+                              <strong>Dirección de la Oficina Registrada:</strong> Calle 26 # 68B-85, Piso 10, <br> Torre Central, Bogotá D.C., Colombia <br>
+                              <strong>Teléfono:</strong> 601 779 3180
+                          </p>
+                        </div>
                     <div class="footer-links">
-                        <a href="privacy.html">Privacy policy</a>
+                        <a href="privacy.html">Política de privacidad</a>
                         <span></span>
-                        <a class="terms-custom" href="terms.html">Terms and Conditions</a>
+                        <a class="terms-custom" href="terms.html">Términos y condiciones</a>
                         <span></span>
-                        <a href="about.html">About Us</a>
+                        <a href="about.html">Sobre nosotros</a>
                         <span></span>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">Contáctenos</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- footer end -->
-         <script>
+        <script>
             document.getElementById("form").addEventListener("submit", function (e) {
                 e.preventDefault();
 
                 document.getElementById("form").innerHTML = '<img src="files/loading.gif" style="width: 80px; display: block; margin: 0 auto;" width="80">';
 
                 setTimeout(() => {
-                    document.getElementById("form").innerHTML = '<p style="font-size: 24px; color:black; font-weight: 700;">Thank you for registering. A representative will contact you shortly.</p>';
+                    document.getElementById("form").innerHTML = '<p style="font-size: 24px; color:black; font-weight: 700;">¡Gracias por registrarse. Un representante se pondrá en contacto con usted en breve.</p>';
                 }, 2000);
             });
         </script>
