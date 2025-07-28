@@ -1,0 +1,22 @@
+<svg width="56" height="59" viewBox="0 0 56 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="46" cy="50" r="2.25" stroke="white" stroke-width="1.5"/>
+<circle cx="46" cy="27" r="2.25" stroke="white" stroke-width="1.5"/>
+<circle cx="46" cy="13" r="2.25" stroke="white" stroke-width="1.5"/>
+<circle cx="10" cy="50" r="2.25" stroke="white" stroke-width="1.5"/>
+<circle cx="10" cy="37" r="2.25" stroke="white" stroke-width="1.5"/>
+<circle cx="10" cy="13" r="2.25" stroke="white" stroke-width="1.5"/>
+<path d="M10 34L10 16" stroke="white" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 2"/>
+<path d="M13 50L26 50C27.1046 50 28 49.1046 28 48L28 38" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M46 24L46 16" stroke="white" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 2"/>
+<path d="M43 50L24 50" stroke="white" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 2"/>
+<path d="M46 30L46 36C46 37.1046 45.1046 38 44 38L36 38" stroke="white" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 2"/>
+<g clip-path="url(#clip0_4771_362)">
+<circle cx="28" cy="17.5911" r="10.2755" transform="rotate(45 28 17.5911)" stroke="white" stroke-width="1.5"/>
+<path d="M28 28.2986V33.6524" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_4771_362">
+<rect width="25.9592" height="25.9592" fill="white" transform="translate(28) rotate(45)"/>
+</clipPath>
+</defs>
+</svg>
