@@ -1,782 +1,861 @@
 <!DOCTYPE html>
-<html lang="en" data-mutiny-loaded="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="description" content="Tenable provides you with the most accurate visibility and insight into dynamic cloud assets. Gain live visibility into your AWS, Azure and Google Cloud Platform assets through our cloud connectors. Continuously assess cloud infrastructure to detect vulnerabilities, malware and misconfigurations across cloud and on-prem environments. This gives you a unified view into cyber risk so you can better prioritize remediation and benchmark effectiveness against industry peers.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="robots" content="noindex, nofollow">
-
- 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/apple-touch-icon-180x180.png">
-  <link rel="manifest" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/manifest.json">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/tenable-favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-48x48.png" sizes="48x48" type="image/png">
-  <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-96x96.png" sizes="96x96" type="image/png">
-  <meta name="msapplication-config" content="https://www.tenable.com/themes/custom/tenable/images-new/favicons/browserconfig.xml">
-  <!-- Custome Styles -->
-  <link rel="stylesheet" href="files/style.css">
-
-  
-  <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com/">
- 
-
-<link id="mktoForms2BaseStyle" rel="stylesheet" type="text/css" href="files/forms2.css" nonce=""><link id="mktoForms2ThemeStyle" rel="stylesheet" type="text/css" href="files/forms2-theme-round.css" nonce=""><style>/* Add your custom CSS below */
-form {
-	max-width: 425px !important;
-	width: 100% !important;
-}
-.mktoForm {
-text-align: center !important;
-margin: 0 auto;
-}
-.mktoForm label {
-	/*text-align: right !important;*/
-}
-/* button */
-.mktoButtonWrap.mktoPurpleCandy {
-margin: 0 !important;
-}
-.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton {
-	text-shadow: none !important; 
-    display: block !important;
-max-width: 100% !important;
-min-width: 100px !important;
-width: 150px !important;
-font-weight: normal !important;
-}
-.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover {
-	background: #006bc4 !important;
-}
-
-/* errors */  
-  
-.mktoForm input.mktoField.mktoInvalid, .mktoForm select.mktoField.mktoInvalid, .mktoForm textarea.mktoField.mktoInvalid, .mktoForm div.mktoLogicalField.mktoInvalid {
-	border: 1px solid #ff6b35 !important;
-}
-.mktoForm .mktoRequiredField label.mktoLabel {
-	font-weight: normal !important;
-}
-.mktoForm .mktoAsterix {
-	color: #ff6b35 !important;
-	font-size: 1.25em !important;
-	font-weight: normal !important;
-}
-.mktoForm .mktoError {
-color: #ff6b35 !important;
-}
-.mktoForm .mktoError .mktoErrorMsg {
-
-background-color: #ff6b35 !important;
-background-image: none !important;
--webkit-box-shadow: none !important;
-box-shadow: none !important;
-text-shadow: none !important;
-border: 1px solid #ff6b35 !important;
-}
-.mktoForm .mktoError .mktoErrorArrow {
-background-color: #ff6b35 !important;
-border: 1px solid #ff6b35 !important;
-}
-.mktoForm fieldset {
-  border-radius: 0;
-}
-
-.mktoForm input[type=text],
-.mktoForm input[type=url],
-.mktoForm input[type=email],
-.mktoForm input[type=tel],
-.mktoForm input[type=number],
-.mktoForm input[type=date],
-.mktoForm select.mktoField,
-.mktoForm textarea.mktoField{
-  border-radius: 0;
-  box-shadow: none !important;
-}
-.mktoForm div.mktoLogicalField {
-  border-radius: 0;
-}
-.mktoForm input[type=checkbox] + label:before, .mktoForm input[type=radio] + label:before {
-	box-shadow: none !important;
-}</style>
-
-<style type="text/css">@import url("https://fonts.googleapis.com/icon?family=Material+Icons");.next-action{line-height:normal}.next-action--new{margin-bottom:var(--bottom-offset)!important}.next-action--new[data-next-action-type=RELATED_STORIES]:before{content:var(--header)!important;font-family:var(--font-family);font-size:calc(var(--font-size)*.8);font-variant:var(--font-variant);margin-bottom:.5em;text-transform:uppercase}.next-action--new .next-action--wrap{width:100%}.next-action--new .next-action--buttons-wrap{display:flex;flex-wrap:wrap;justify-content:center;margin-top:0!important}.next-action--new .next-action--story-button{align-items:center;background:none!important;border:none;color:inherit;cursor:pointer;display:flex;gap:20px;margin:0 -5px;padding:5px;pointer-events:all;width:100%}.next-action--new .next-action--story-button--text{padding:0;text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--new .next-action--story-button--text--headline{color:var(--color);font-family:var(--font-family);font-size:var(--font-size);font-style:var(--font-style);font-variant:var(--font-variant);font-weight:var(--font-weight);-webkit-text-decoration:var(--text-decoration);text-decoration:var(--text-decoration);white-space:pre-wrap}.next-action--new .next-action--story-button--text--headline strong{color:var(--secondary-color);font-family:var(--secondary-font-family);font-size:var(--font-size);font-style:var(--secondary-font-style);font-variant:var(--secondary-font-variant);font-weight:var(--secondary-font-weight);-webkit-text-decoration:var(--secondary-text-decoration);text-decoration:var(--secondary-text-decoration)}.next-action--new .next-action--story-button--text--headline:after{color:var(--icon-color);content:var(--icon-glyph);display:inline-block;font-family:Material Icons;font-size:calc(var(--font-size)*1.5);height:var(--icon-size);vertical-align:middle;visibility:visible;width:var(--icon-size)}.next-action--new .next-action--story-button--text--summary{display:none}.next-action--new .next-action--story-button--img{align-items:center;border-radius:4px;display:flex;flex-shrink:0;height:70px;line-height:90px;overflow:hidden;width:90px}.next-action--new .next-action--story-button--img img{display:block;height:70px;-o-object-fit:cover;object-fit:cover;width:90px}.next-action--new .next-action--close-button{box-sizing:border-box;cursor:pointer;display:inline-block;height:16px;line-height:16px;opacity:.5;position:relative;position:absolute;right:5px;top:5px;transform:scale(.6);width:16px}@media screen and (min-width:500px){.next-action--new.next-action{margin:0}}.next-action{align-items:center;border-radius:0;display:flex;flex-direction:column;justify-content:center;max-width:500px;opacity:0;padding:16px;transform:translate3d(0,100px,0);transform-origin:center;-webkit-font-smoothing:antialiased;box-sizing:border-box;font-family:sans-serif;font-size:16px;margin:auto;pointer-events:none;position:absolute;top:auto;touch-action:manipulation;transition:transform .3s ease,opacity .3s ease;-webkit-user-select:none;-moz-user-select:none;user-select:none;will-change:transform,opacity;z-index:-1}.next-action:active{background:hsla(0,0%,100%,.05)}.next-action.hide{opacity:0}.next-action.show{opacity:1;pointer-events:auto;transform:translateZ(0);z-index:9999999999}.next-action--body-wrap h3{color:var(--callToActionHeadlineColor);font-family:var(--callToActionHeadlineFont);font-size:16px;font-weight:300;margin:0;padding:0 20px;pointer-events:none;text-align:center;text-transform:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--buttons-wrap{display:flex;flex-wrap:wrap;justify-content:center}.next-action--body-wrap+.next-action--buttons-wrap{margin-top:10px}.next-action--image-button{background:none;border:none;color:var(--callToActionButtonTextColor);display:flex;font-family:var(--callToActionButtonFont);pointer-events:all}.next-action--image-button img{display:block;height:42px;width:42px}.next-action--story-button{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;font-family:var(--callToActionButtonFont);margin:0 -5px;padding:5px;pointer-events:all;width:100%}.next-action--story-button:active,.next-action--story-button:hover{background:#f7f7f7}.next-action--story-button--img{border-radius:4px;flex-shrink:0;overflow:hidden}.next-action--story-button--img--large img{-o-object-fit:cover;object-fit:cover;width:120px!important}.next-action--story-button--text{color:#000;font-size:.8em;padding:5px 20px;text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--story-button--text--headline{font-size:14px;font-weight:600}.next-action--story-button--text--headline--large{font-size:20px;font-style:normal;font-weight:450;line-height:21px}.next-action--story-button--text--summary{margin:3px 0}.next-action--story-button--text--display-url{opacity:.3}.next-action--story-button img{display:block;height:80px;width:80px}.next-action--button{background:var(--callToActionButtonColor);border:none;border-radius:5px;color:var(--callToActionButtonTextColor);cursor:pointer;display:block;filter:brightness(100%);font-family:var(--callToActionButtonFont);font-size:.9em;min-width:80px;outline:none;padding:.5em 1em;pointer-events:all;text-align:center;text-decoration:none}.next-action--button:hover{filter:brightness(120%)}.next-action--button+.next-action--button{margin-left:10px}.next-action[data-next-action-type=RELATED_STORIES]:before{align-self:baseline;color:#fff;content:"RELATED STORIES";display:block;font-family:sans-serif;font-size:.8em;opacity:.5}.next-action--close-button{box-sizing:border-box;cursor:pointer;display:inline-block;height:16px;line-height:16px;opacity:.5;position:relative;position:absolute;right:5px;top:5px;transform:scale(.6);width:16px}.next-action--close-button:after,.next-action--close-button:before{background-color:#000;content:"";display:block;height:2px;left:50%;margin-left:-8px;margin-top:-2px;position:absolute;top:50%;transform:rotate(-45deg);transition:all .2s ease-out;width:16px}.next-action--close-button:after{transform:rotate(45deg)}.next-action--close-button:hover:after,.next-action--close-button:hover:before{transform:rotate(0deg)}.next-action[data-next-action-type=RELATED_STORIES] .next-action--close-button{opacity:.5;right:15px;top:15px;transform:scale(.8)}.next-action--external-resource{border:none;display:block;margin:10px auto auto}.next-action{background:#fff!important;bottom:0;box-shadow:0 0 10px 1px rgba(0,0,0,.3);margin:0;position:fixed;right:0;width:100%}.next-action[data-next-action-type=LEAD_GEN] .next-action--body-wrap{margin-bottom:1em}.next-action[data-next-action-type=LEAD_GEN] .next-action--body-wrap h3{text-align:center!important}@media screen and (min-width:500px){.next-action{border-radius:5px;bottom:10px;right:10px;width:500px}.next-action[data-next-action-type=LEAD_GEN]{width:auto}}.next-action:before{color:#000!important}</style>
-
-<style type="text/css">.drift-conductor-item iframe,
-.drift-frame-controller {
-  display: block;
-  min-width: 0;
-  max-width: none;
-  min-height: 0;
-  max-height: none;
-}
-
-.drift-conductor-item iframe {
-  color-scheme: light only;
-  border: none !important;
-  background: transparent !important;
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-}
-
-.drift-conductor-item.with-transition {
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, -o-transform .5s ease;
-  -moz-transition: opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
-}
-
-.drift-frame-chat.with-transition.drift-frame-chat__takeover {
-  -webkit-transition: opacity .5s ease;
-  -o-transition: opacity .5s ease;
-  -moz-transition: opacity .5s ease;
-  transition: opacity .5s ease;
-}
-
-.drift-conductor-item.with-height-transition {
-  -webkit-transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
-  transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: max-height .5s ease, opacity .5s ease, -o-transform .5s ease;
-  -moz-transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
-  transition: max-height .5s ease, opacity .5s ease, transform .5s ease;
-  transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
-}
-
-.drift-conductor-item {
-  -webkit-transform: translateZ(0);
-     -moz-transform: translateZ(0);
-          transform: translateZ(0);
-}
-
-.drift-frame-controller {
-  bottom: 24px;
-}
-
-.drift-frame-controller-align-left {
-  left: 24px;
-}
-
-.drift-frame-controller-align-right {
-  right: 24px;
-}
-
-.drift-frame-chat:not(iframe) {
-  bottom: -webkit-calc(12px + 52px + 24px);
-  bottom: -moz-calc(12px + 52px + 24px);
-  bottom: calc(12px + 52px + 24px); /* vertical margin x 2 + widget icon size*/
-  width: 100%;
-  height: 100%;
-  min-width: 320px;
-  opacity: 0;
-  visibility: hidden;
-
-  -webkit-transform: translateY(88px);
-
-     -moz-transform: translateY(88px);
-
-      -ms-transform: translateY(88px);
-
-       -o-transform: translateY(88px);
-
-          transform: translateY(88px);
-}
-
-.drift-frame-chat:not(iframe).drift-chat-open {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateY(0px);
-     -moz-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-       -o-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
-.drift-frame-chat.drift-frame-chat__takeover:not(iframe):not(.drift-frame--mobile) {
-  min-width: 600px;
-}
-
-.drift-frame-chat-align-left {
-  left: 12px;
-}
-
-.drift-frame-chat-align-right {
-  right: 12px;
-}
-
-.drift-frame-takeover,
-.drift-frame-landingPage,
-.drift-frame-chat__takeover {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  min-height: 100%;
-  min-width: 100%;
-}
-
-.drift-frame-chat__takeover.hide-frame {
-  visibility: hidden;
-}
-
-.drift-frame-emailCapture {
-  bottom: 0;
-  height: -webkit-calc(100% + 30px);
-  height: -moz-calc(100% + 30px);
-  height: calc(100% + 30px);
-}
-
-.drift-frame-emailCapture-align-left {
-  left: 0;
-}
-
-.drift-frame-emailCapture-align-right {
-  right: 0;
-}
-
-.drift-frame-slider {
-  bottom: 18px;
-  height: -webkit-calc(100% + 20px);
-  height: -moz-calc(100% + 20px);
-  height: calc(100% + 20px);
-}
-
-.drift-frame-slider-align-left {
-  left: 96px;
-}
-
-.drift-frame-slider-align-right {
-  right: 96px;
-}
-
-.drift-frame--mobile.drift-frame-slider-align-left {
-  left: 68px;
-}
-
-.drift-frame--mobile.drift-frame-slider-align-right {
-  right: 68px;
-}
-
-.drift-widget-content-box {
-  background: rgba(0,0,0,.5);
-  width: 100%;
-  height: 100%;
-
-  position: fixed;
-  z-index: 2147483647;
-  top: 0;
-  left: 0;
-}
-
-.drift-widget-content-box > * {
-  margin: 0 auto;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-       -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  max-height: 80%;
-
-}
-
-/* Site Concierge Classes */
-.drift-frame-chat__sc-loaded:not(.drift-chat-open),
-.drift-frame-controller__sc-loaded {
-  max-height: 0px !important;
-  visibility: hidden !important;
-}
-
-.drift-frame-chat__sc-loaded {
-  bottom: 0px !important;
-}
-
-@media
-(max-height: 685px),
-(min-width: 369px) and (max-width: 380px),
-(max-width: 367px),
-
-(min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait)
-
-{
-  .drift-frame--mobile.drift-frame-chat.drift-chat-open {
-    bottom: 0 !important;
-    right: 0;
-    left: 0;
-    z-index: 2147483647 !important;
-  }
-
-  .drift-frame--mobile.drift-frame-controller {
-    bottom: 0;
-  }
-
-  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-left {
-    left: 0;
-  }
-
-  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-right {
-    right: 0;
-  }
-
-
-  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
-    display: none;
-  }
-
-  .drift-frame--mobile.drift-frame-slider {
-    bottom: 0;
-    max-width: 320px;
-  }
-
-  .drift-frame--mobile iframe.drift-frame-chat {
-    width: 1px !important;
-    min-width: 100%;
-
-    height: 1px !important;
-    min-height: 100%;
-  }
-
-  html.drift-widget-parent--chat-open,
-  html.drift-widget-parent--chat-open > body {
-    height: 100vh !important;
-    margin: 0 !important;
-    min-height: 0 !important;
-    overflow: hidden !important;
-    position: static !important;
-  }
-}
-
-@media only screen and (orientation: landscape) {
-  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
-    display: none;
-  }
-
-  .drift-frame--mobile.drift-frame-controller {
-    bottom: 0;
-  }
-
-  .drift-frame--mobile.drift-frame-controller-align-right {
-    right: 0;
-  }
-
-  .drift-frame--mobile.drift-frame-controller-align-left {
-    left: 0;
-  }
-}
-
-.drift-frame-chat.widget--xs.drift-chat-open {
-  bottom: 0 !important;
-  right: 0 !important;
-  left: 0 !important;
-}
-
-.drift-frame-controller.widget--xs.drift-chat-open {
-  display: none;
-}
-
-</style>
-
-<title>{Company}</title></head>
-
-<body class="nantu_4999">
-
-  <main>
-    <!-- Hero Section -->
-    <div class="section-wrapper">
-      <section class="hero-section">
-        <div class="container">
-          <div class="header-logo-container">
-            <a class="tenable-logo" href="https://www.tenable.com/"><img src="files/tenable-logo.svg" alt="Tenable Cloud Security" title="Tenable Cloud Security"></a>
-          </div>
-          <div class="main-wrap">
-            <div class="content-wrap">
-              <h1 class="hero-title">Discover, prioritize, and remediate vulnerabilities, misconfigurations, identity,
-                and
-                data risks, across
-                <br> <span>multi-cloud environments.</span>
-              </h1><br>
-              
-              <ul class="hero-content desk-only">
-                <li>
-                  <span><img src="files/icon-visibility.svg" alt="Cloud-Native Vulnerability Mgmt"></span>
-                  <p><span class="bold">Cloud-Native Vulnerability Mgmt.</span> Get prioritized visibility into every
-                    cloud resource <br>from development to runtime.</p>
-                </li>
-                <li>
-                  <span><img src="files/icon-vulnerability.svg" alt="Enforce Least Privilege"></span>
-                  <p><span class="bold">Enforce Least Privilege.</span> Leverage the intuitive UI to attain the least
-                    privilege without disrupting productivity.</p>
-                </li>
-                <li>
-                  <span><img src="files/icon-compliance.svg" alt="Automate Compliance"></span>
-                  <p><span class="bold">Automate Compliance.</span> Eliminate audit fire drills. Verify and
-                    automatically
-                    <br>report on compliance frameworks.
-                  </p>
-                </li>
-              </ul>
+<html lang="en" data-mutiny-loaded="true">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Tenable provides you with the most accurate visibility and insight into dynamic cloud assets. Gain live visibility into your AWS, Azure and Google Cloud Platform assets through our cloud connectors. Continuously assess cloud infrastructure to detect vulnerabilities, malware and misconfigurations across cloud and on-prem environments. This gives you a unified view into cyber risk so you can better prioritize remediation and benchmark effectiveness against industry peers.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/apple-touch-icon-180x180.png">
+        <link rel="manifest" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/manifest.json">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/tenable-favicon.svg" type="image/svg+xml">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-48x48.png" sizes="48x48" type="image/png">
+        <link rel="icon" href="https://www.tenable.com/themes/custom/tenable/images-new/favicons/favicon-96x96.png" sizes="96x96" type="image/png">
+        <meta name="msapplication-config" content="https://www.tenable.com/themes/custom/tenable/images-new/favicons/browserconfig.xml">
+        <!-- Custome Styles -->
+        <link rel="stylesheet" href="files/style.css">
+        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com/">
+        <link id="mktoForms2BaseStyle" rel="stylesheet" type="text/css" href="files/forms2.css" nonce="">
+        <link id="mktoForms2ThemeStyle" rel="stylesheet" type="text/css" href="files/forms2-theme-round.css" nonce="">
+        <style>/* Add your custom CSS below */
+            form {
+            max-width: 425px !important;
+            width: 100% !important;
+            }
+            .mktoForm {
+            text-align: center !important;
+            margin: 0 auto;
+            }
+            .mktoForm label {
+            /*text-align: right !important;*/
+            }
+            /* button */
+            .mktoButtonWrap.mktoPurpleCandy {
+            margin: 0 !important;
+            }
+            .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton {
+            text-shadow: none !important; 
+            display: block !important;
+            max-width: 100% !important;
+            min-width: 100px !important;
+            width: 150px !important;
+            font-weight: normal !important;
+            }
+            .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover {
+            background: #006bc4 !important;
+            }
+            /* errors */  
+            .mktoForm input.mktoField.mktoInvalid, .mktoForm select.mktoField.mktoInvalid, .mktoForm textarea.mktoField.mktoInvalid, .mktoForm div.mktoLogicalField.mktoInvalid {
+            border: 1px solid #ff6b35 !important;
+            }
+            .mktoForm .mktoRequiredField label.mktoLabel {
+            font-weight: normal !important;
+            }
+            .mktoForm .mktoAsterix {
+            color: #ff6b35 !important;
+            font-size: 1.25em !important;
+            font-weight: normal !important;
+            }
+            .mktoForm .mktoError {
+            color: #ff6b35 !important;
+            }
+            .mktoForm .mktoError .mktoErrorMsg {
+            background-color: #ff6b35 !important;
+            background-image: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+            border: 1px solid #ff6b35 !important;
+            }
+            .mktoForm .mktoError .mktoErrorArrow {
+            background-color: #ff6b35 !important;
+            border: 1px solid #ff6b35 !important;
+            }
+            .mktoForm fieldset {
+            border-radius: 0;
+            }
+            .mktoForm input[type=text],
+            .mktoForm input[type=url],
+            .mktoForm input[type=email],
+            .mktoForm input[type=tel],
+            .mktoForm input[type=number],
+            .mktoForm input[type=date],
+            .mktoForm select.mktoField,
+            .mktoForm textarea.mktoField{
+            border-radius: 0;
+            box-shadow: none !important;
+            }
+            .mktoForm div.mktoLogicalField {
+            border-radius: 0;
+            }
+            .mktoForm input[type=checkbox] + label:before, .mktoForm input[type=radio] + label:before {
+            box-shadow: none !important;
+            }
+        </style>
+        <style type="text/css">@import url("https://fonts.googleapis.com/icon?family=Material+Icons");.next-action{line-height:normal}.next-action--new{margin-bottom:var(--bottom-offset)!important}.next-action--new[data-next-action-type=RELATED_STORIES]:before{content:var(--header)!important;font-family:var(--font-family);font-size:calc(var(--font-size)*.8);font-variant:var(--font-variant);margin-bottom:.5em;text-transform:uppercase}.next-action--new .next-action--wrap{width:100%}.next-action--new .next-action--buttons-wrap{display:flex;flex-wrap:wrap;justify-content:center;margin-top:0!important}.next-action--new .next-action--story-button{align-items:center;background:none!important;border:none;color:inherit;cursor:pointer;display:flex;gap:20px;margin:0 -5px;padding:5px;pointer-events:all;width:100%}.next-action--new .next-action--story-button--text{padding:0;text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--new .next-action--story-button--text--headline{color:var(--color);font-family:var(--font-family);font-size:var(--font-size);font-style:var(--font-style);font-variant:var(--font-variant);font-weight:var(--font-weight);-webkit-text-decoration:var(--text-decoration);text-decoration:var(--text-decoration);white-space:pre-wrap}.next-action--new .next-action--story-button--text--headline strong{color:var(--secondary-color);font-family:var(--secondary-font-family);font-size:var(--font-size);font-style:var(--secondary-font-style);font-variant:var(--secondary-font-variant);font-weight:var(--secondary-font-weight);-webkit-text-decoration:var(--secondary-text-decoration);text-decoration:var(--secondary-text-decoration)}.next-action--new .next-action--story-button--text--headline:after{color:var(--icon-color);content:var(--icon-glyph);display:inline-block;font-family:Material Icons;font-size:calc(var(--font-size)*1.5);height:var(--icon-size);vertical-align:middle;visibility:visible;width:var(--icon-size)}.next-action--new .next-action--story-button--text--summary{display:none}.next-action--new .next-action--story-button--img{align-items:center;border-radius:4px;display:flex;flex-shrink:0;height:70px;line-height:90px;overflow:hidden;width:90px}.next-action--new .next-action--story-button--img img{display:block;height:70px;-o-object-fit:cover;object-fit:cover;width:90px}.next-action--new .next-action--close-button{box-sizing:border-box;cursor:pointer;display:inline-block;height:16px;line-height:16px;opacity:.5;position:relative;position:absolute;right:5px;top:5px;transform:scale(.6);width:16px}@media screen and (min-width:500px){.next-action--new.next-action{margin:0}}.next-action{align-items:center;border-radius:0;display:flex;flex-direction:column;justify-content:center;max-width:500px;opacity:0;padding:16px;transform:translate3d(0,100px,0);transform-origin:center;-webkit-font-smoothing:antialiased;box-sizing:border-box;font-family:sans-serif;font-size:16px;margin:auto;pointer-events:none;position:absolute;top:auto;touch-action:manipulation;transition:transform .3s ease,opacity .3s ease;-webkit-user-select:none;-moz-user-select:none;user-select:none;will-change:transform,opacity;z-index:-1}.next-action:active{background:hsla(0,0%,100%,.05)}.next-action.hide{opacity:0}.next-action.show{opacity:1;pointer-events:auto;transform:translateZ(0);z-index:9999999999}.next-action--body-wrap h3{color:var(--callToActionHeadlineColor);font-family:var(--callToActionHeadlineFont);font-size:16px;font-weight:300;margin:0;padding:0 20px;pointer-events:none;text-align:center;text-transform:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--buttons-wrap{display:flex;flex-wrap:wrap;justify-content:center}.next-action--body-wrap+.next-action--buttons-wrap{margin-top:10px}.next-action--image-button{background:none;border:none;color:var(--callToActionButtonTextColor);display:flex;font-family:var(--callToActionButtonFont);pointer-events:all}.next-action--image-button img{display:block;height:42px;width:42px}.next-action--story-button{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;font-family:var(--callToActionButtonFont);margin:0 -5px;padding:5px;pointer-events:all;width:100%}.next-action--story-button:active,.next-action--story-button:hover{background:#f7f7f7}.next-action--story-button--img{border-radius:4px;flex-shrink:0;overflow:hidden}.next-action--story-button--img--large img{-o-object-fit:cover;object-fit:cover;width:120px!important}.next-action--story-button--text{color:#000;font-size:.8em;padding:5px 20px;text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.next-action--story-button--text--headline{font-size:14px;font-weight:600}.next-action--story-button--text--headline--large{font-size:20px;font-style:normal;font-weight:450;line-height:21px}.next-action--story-button--text--summary{margin:3px 0}.next-action--story-button--text--display-url{opacity:.3}.next-action--story-button img{display:block;height:80px;width:80px}.next-action--button{background:var(--callToActionButtonColor);border:none;border-radius:5px;color:var(--callToActionButtonTextColor);cursor:pointer;display:block;filter:brightness(100%);font-family:var(--callToActionButtonFont);font-size:.9em;min-width:80px;outline:none;padding:.5em 1em;pointer-events:all;text-align:center;text-decoration:none}.next-action--button:hover{filter:brightness(120%)}.next-action--button+.next-action--button{margin-left:10px}.next-action[data-next-action-type=RELATED_STORIES]:before{align-self:baseline;color:#fff;content:"RELATED STORIES";display:block;font-family:sans-serif;font-size:.8em;opacity:.5}.next-action--close-button{box-sizing:border-box;cursor:pointer;display:inline-block;height:16px;line-height:16px;opacity:.5;position:relative;position:absolute;right:5px;top:5px;transform:scale(.6);width:16px}.next-action--close-button:after,.next-action--close-button:before{background-color:#000;content:"";display:block;height:2px;left:50%;margin-left:-8px;margin-top:-2px;position:absolute;top:50%;transform:rotate(-45deg);transition:all .2s ease-out;width:16px}.next-action--close-button:after{transform:rotate(45deg)}.next-action--close-button:hover:after,.next-action--close-button:hover:before{transform:rotate(0deg)}.next-action[data-next-action-type=RELATED_STORIES] .next-action--close-button{opacity:.5;right:15px;top:15px;transform:scale(.8)}.next-action--external-resource{border:none;display:block;margin:10px auto auto}.next-action{background:#fff!important;bottom:0;box-shadow:0 0 10px 1px rgba(0,0,0,.3);margin:0;position:fixed;right:0;width:100%}.next-action[data-next-action-type=LEAD_GEN] .next-action--body-wrap{margin-bottom:1em}.next-action[data-next-action-type=LEAD_GEN] .next-action--body-wrap h3{text-align:center!important}@media screen and (min-width:500px){.next-action{border-radius:5px;bottom:10px;right:10px;width:500px}.next-action[data-next-action-type=LEAD_GEN]{width:auto}}.next-action:before{color:#000!important}</style>
+        <style type="text/css">.drift-conductor-item iframe,
+            .drift-frame-controller {
+            display: block;
+            min-width: 0;
+            max-width: none;
+            min-height: 0;
+            max-height: none;
+            }
+            .drift-conductor-item iframe {
+            color-scheme: light only;
+            border: none !important;
+            background: transparent !important;
+            width: 100% !important;
+            height: 100% !important;
+            max-width: 100% !important;
+            }
+            .drift-conductor-item.with-transition {
+            -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+            transition: opacity .5s ease, -webkit-transform .5s ease;
+            -o-transition: opacity .5s ease, -o-transform .5s ease;
+            -moz-transition: opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+            transition: opacity .5s ease, transform .5s ease;
+            transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+            }
+            .drift-frame-chat.with-transition.drift-frame-chat__takeover {
+            -webkit-transition: opacity .5s ease;
+            -o-transition: opacity .5s ease;
+            -moz-transition: opacity .5s ease;
+            transition: opacity .5s ease;
+            }
+            .drift-conductor-item.with-height-transition {
+            -webkit-transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+            transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+            -o-transition: max-height .5s ease, opacity .5s ease, -o-transform .5s ease;
+            -moz-transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+            transition: max-height .5s ease, opacity .5s ease, transform .5s ease;
+            transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+            }
+            .drift-conductor-item {
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            transform: translateZ(0);
+            }
+            .drift-frame-controller {
+            bottom: 24px;
+            }
+            .drift-frame-controller-align-left {
+            left: 24px;
+            }
+            .drift-frame-controller-align-right {
+            right: 24px;
+            }
+            .drift-frame-chat:not(iframe) {
+            bottom: -webkit-calc(12px + 52px + 24px);
+            bottom: -moz-calc(12px + 52px + 24px);
+            bottom: calc(12px + 52px + 24px); /* vertical margin x 2 + widget icon size*/
+            width: 100%;
+            height: 100%;
+            min-width: 320px;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transform: translateY(88px);
+            -moz-transform: translateY(88px);
+            -ms-transform: translateY(88px);
+            -o-transform: translateY(88px);
+            transform: translateY(88px);
+            }
+            .drift-frame-chat:not(iframe).drift-chat-open {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+            }
+            .drift-frame-chat.drift-frame-chat__takeover:not(iframe):not(.drift-frame--mobile) {
+            min-width: 600px;
+            }
+            .drift-frame-chat-align-left {
+            left: 12px;
+            }
+            .drift-frame-chat-align-right {
+            right: 12px;
+            }
+            .drift-frame-takeover,
+            .drift-frame-landingPage,
+            .drift-frame-chat__takeover {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            min-width: 100%;
+            }
+            .drift-frame-chat__takeover.hide-frame {
+            visibility: hidden;
+            }
+            .drift-frame-emailCapture {
+            bottom: 0;
+            height: -webkit-calc(100% + 30px);
+            height: -moz-calc(100% + 30px);
+            height: calc(100% + 30px);
+            }
+            .drift-frame-emailCapture-align-left {
+            left: 0;
+            }
+            .drift-frame-emailCapture-align-right {
+            right: 0;
+            }
+            .drift-frame-slider {
+            bottom: 18px;
+            height: -webkit-calc(100% + 20px);
+            height: -moz-calc(100% + 20px);
+            height: calc(100% + 20px);
+            }
+            .drift-frame-slider-align-left {
+            left: 96px;
+            }
+            .drift-frame-slider-align-right {
+            right: 96px;
+            }
+            .drift-frame--mobile.drift-frame-slider-align-left {
+            left: 68px;
+            }
+            .drift-frame--mobile.drift-frame-slider-align-right {
+            right: 68px;
+            }
+            .drift-widget-content-box {
+            background: rgba(0,0,0,.5);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: 2147483647;
+            top: 0;
+            left: 0;
+            }
+            .drift-widget-content-box > * {
+            margin: 0 auto;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            max-height: 80%;
+            }
+            /* Site Concierge Classes */
+            .drift-frame-chat__sc-loaded:not(.drift-chat-open),
+            .drift-frame-controller__sc-loaded {
+            max-height: 0px !important;
+            visibility: hidden !important;
+            }
+            .drift-frame-chat__sc-loaded {
+            bottom: 0px !important;
+            }
+            @media
+            (max-height: 685px),
+            (min-width: 369px) and (max-width: 380px),
+            (max-width: 367px),
+            (min-device-width: 320px)
+            and (max-device-width: 480px)
+            and (-webkit-min-device-pixel-ratio: 2)
+            and (orientation: portrait)
+            {
+            .drift-frame--mobile.drift-frame-chat.drift-chat-open {
+            bottom: 0 !important;
+            right: 0;
+            left: 0;
+            z-index: 2147483647 !important;
+            }
+            .drift-frame--mobile.drift-frame-controller {
+            bottom: 0;
+            }
+            .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-left {
+            left: 0;
+            }
+            .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-right {
+            right: 0;
+            }
+            .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+            display: none;
+            }
+            .drift-frame--mobile.drift-frame-slider {
+            bottom: 0;
+            max-width: 320px;
+            }
+            .drift-frame--mobile iframe.drift-frame-chat {
+            width: 1px !important;
+            min-width: 100%;
+            height: 1px !important;
+            min-height: 100%;
+            }
+            html.drift-widget-parent--chat-open,
+            html.drift-widget-parent--chat-open > body {
+            height: 100vh !important;
+            margin: 0 !important;
+            min-height: 0 !important;
+            overflow: hidden !important;
+            position: static !important;
+            }
+            }
+            @media only screen and (orientation: landscape) {
+            .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+            display: none;
+            }
+            .drift-frame--mobile.drift-frame-controller {
+            bottom: 0;
+            }
+            .drift-frame--mobile.drift-frame-controller-align-right {
+            right: 0;
+            }
+            .drift-frame--mobile.drift-frame-controller-align-left {
+            left: 0;
+            }
+            }
+            .drift-frame-chat.widget--xs.drift-chat-open {
+            bottom: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            }
+            .drift-frame-controller.widget--xs.drift-chat-open {
+            display: none;
+            }
+        </style>
+        <title>{Company}</title>
+    </head>
+    <body class="nantu_4999">
+        <main>
+            <!-- Hero Section -->
+            <div class="section-wrapper">
+                <section class="hero-section">
+                    <div class="container">
+                        <div class="header-logo-container">
+                            <a class="tenable-logo" href="https://www.tenable.com/"><img src="files/tenable-logo.svg" alt="Tenable Cloud Security" title="Tenable Cloud Security"></a>
+                        </div>
+                        <div class="main-wrap">
+                            <div class="content-wrap">
+                                <h1 class="hero-title">Discover, prioritize, and remediate vulnerabilities, misconfigurations, identity,
+                                    and
+                                    data risks, across
+                                    <br> <span>multi-cloud environments.</span>
+                                </h1>
+                                <br>
+                                <ul class="hero-content desk-only">
+                                    <li>
+                                        <span><img src="files/icon-visibility.svg" alt="Cloud-Native Vulnerability Mgmt"></span>
+                                        <p><span class="bold">Cloud-Native Vulnerability Mgmt.</span> Get prioritized visibility into every
+                                            cloud resource <br>from development to runtime.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span><img src="files/icon-vulnerability.svg" alt="Enforce Least Privilege"></span>
+                                        <p><span class="bold">Enforce Least Privilege.</span> Leverage the intuitive UI to attain the least
+                                            privilege without disrupting productivity.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span><img src="files/icon-compliance.svg" alt="Automate Compliance"></span>
+                                        <p><span class="bold">Automate Compliance.</span> Eliminate audit fire drills. Verify and
+                                            automatically
+                                            <br>report on compliance frameworks.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form-content">
+                                <div class="try-buy-modal tenableio tenableio-vm modal-demo js-tab-wrap marketo-2017" id="tenable-cs">
+                                    <div class="try-buy-modal__nav">
+                                    </div>
+                                    <div class="try-buy-modal__content try js-tab-content js-active content-01">
+                                        <div class="try-buy-modal__content-l">
+                                            <h3 class="uppercase mb">Request a demo of Tenable Cloud Security</h3>
+                                            <p class="tbm-sub-heading">Exceptional unified cloud security awaits you!</p>
+                                            <p class="mt">We'll show you exactly how Tenable Cloud Security helps you deliver
+                                                multi-cloud asset discovery, prioritized risk assessments and <br>automated compliance/audit
+                                                reports.
+                                            </p>
+                                        </div>
+                                        <div class="try-buy-modal__form buy">
+                                            <form id="mktoForm_10155" data-followup="https://www.tenable.com/products/tenable-cloud-security/evaluate/thank-you" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutLeft" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51); width: 501px;">
+                                                <style type="text/css" nonce="">.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton {
+                                                    background-color: #9e76e8;
+                                                    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9e76e8), color-stop(50%, #7038e0), color-stop(50%, #6021de), color-stop(100%, #6224de));
+                                                    background-image: -webkit-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
+                                                    background-image: -moz-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
+                                                    background-image: -ms-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
+                                                    background-image: -o-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
+                                                    background-image: linear-gradient(to bottom, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
+                                                    border-radius: 3px;
+                                                    color: #fff;
+                                                    font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+                                                    padding: 10px 0 12px 0;
+                                                    text-align: center;
+                                                    text-shadow: 0 -1px 1px #473569;
+                                                    width: 150px;
+                                                    -webkit-background-clip: padding-box;
+                                                    border:none;
+                                                    }
+                                                    .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover {
+                                                    background-color: #8d69cf;
+                                                    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8d69cf), color-stop(50%, #6332c7), color-stop(50%, #551dc4), color-stop(100%, #561fc4));
+                                                    background-image: -webkit-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+                                                    background-image: -moz-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+                                                    background-image: -ms-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+                                                    background-image: -o-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+                                                    background-image: linear-gradient(to bottom, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+                                                    -webkit-background-clip: padding-box;
+                                                    cursor: pointer;
+                                                    }
+                                                    .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:active {
+                                                    background: #4a1aab;
+                                                    background: -moz-radial-gradient(50% 31% 0deg, circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)), -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
+                                                    background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
+                                                    color: #ddd;
+                                                    -webkit-background-clip: padding-box;
+                                                    }
+                                                    .mktoForm .mktoButtonWrap.mktoPurpleCandy button.mktoButton {background:#0079DD;}
+                                                </style>
+                                                <div class="mktoFormRow" input-name="parent-FirstName">
+                                                    <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
+                                                        <div class="mktoOffset" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap mktoRequiredField">
+                                                            <label for="FirstName_17536937260950.17335836726588105" id="LblFirstName" class="mktoLabel mktoHasWidth" style="width: 116px;">
+                                                                <div class="mktoAsterix">*</div>
+                                                                First Name
+                                                            </label>
+                                                            <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
+                                                            <input id="FirstName_17536937260950.17335836726588105" name="FirstName" maxlength="255" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-LastName">
+                                                    <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
+                                                        <div class="mktoOffset" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap mktoRequiredField">
+                                                            <label for="LastName_17536937260950.17335836726588105" id="LblLastName" class="mktoLabel mktoHasWidth" style="width: 116px;">
+                                                                <div class="mktoAsterix">*</div>
+                                                                Last Name
+                                                            </label>
+                                                            <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
+                                                            <input id="LastName_17536937260950.17335836726588105" name="LastName" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-Email">
+                                                    <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
+                                                        <div class="mktoOffset" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap mktoRequiredField">
+                                                            <label for="Email_17536937260950.17335836726588105" id="LblEmail" class="mktoLabel mktoHasWidth" style="width: 116px;">
+                                                                <div class="mktoAsterix">*</div>
+                                                                Email Address
+                                                            </label>
+                                                            <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
+                                                            <input id="Email_17536937260950.17335836726588105" name="Email" maxlength="255" aria-labelledby="LblEmail InstructEmail" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-Comments__c">
+                                                    <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
+                                                        <div class="mktoOffset" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap">
+                                                            <label for="Comments__c_17536937260950.17335836726588105" id="LblComments__c" class="mktoLabel mktoHasWidth" style="width: 116px;">
+                                                                <div class="mktoAsterix">*</div>
+                                                                Comments (Limited to 255 characters):
+                                                            </label>
+                                                            <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
+                                                            <textarea id="Comments__c_17536937260950.17335836726588105" name="Comments__c" rows="2" aria-labelledby="LblComments__c InstructComments__c" class="mktoField mktoHasWidth" maxlength="255" style="width: 155px;"></textarea>
+                                                            <span id="InstructComments__c" tabindex="-1" class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-Employee_Range__c">
+                                                    <input type="hidden" name="Employee_Range__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-noinput">
+                                                    <div class="mktoPlaceholder mktoPlaceholderTitle"></div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-noinput">
+                                                    <div class="mktoPlaceholder mktoPlaceholderCompany"></div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-noinput">
+                                                    <div class="mktoPlaceholder mktoPlaceholderPhone"></div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-triggerGDPR">
+                                                    <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px; display: none;">
+                                                        <div class="mktoOffset" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap">
+                                                            <label for="triggerGDPR" id="LbltriggerGDPR" class="mktoLabel mktoHasWidth" style="width: 200px;">
+                                                                <div class="mktoAsterix">*</div>
+                                                            </label>
+                                                            <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
+                                                            <div class="mktoLogicalField mktoCheckboxList mktoHasWidth" style="width: inherit;"><input name="triggerGDPR" id="mktoCheckbox_105323_0_17536937260950.17335836726588105" type="checkbox" value="yes" aria-labelledby="LbltriggerGDPR LblmktoCheckbox_105323_0 InstructtriggerGDPR" class="mktoField"><label for="mktoCheckbox_105323_0_17536937260950.17335836726588105" id="LblmktoCheckbox_105323_0">I would like to receive marketing communications from Tenable regarding its products and services.</label></div>
+                                                            <span id="InstructtriggerGDPR" tabindex="-1" class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-noinput">
+                                                    <div class="mktoFormCol" style="margin-bottom: 10px; display: none;">
+                                                        <div class="mktoOffset mktoHasWidth" style="width: 10px;"></div>
+                                                        <div class="mktoFieldWrap">
+                                                            <div class="mktoHtmlText mktoHasWidth" style="width: inherit;">
+                                                                <p class="gdpr-text" style="max-width: 100%; line-height: 12px; padding-bottom: 20px;"><small>By submitting your information on this page, Tenable may send you email communications regarding its products and services. You may opt out of receiving these communications at any time by using the unsubscribe link located in the footer of the emails delivered to you. You can also manage your Tenable email preferences by visiting the <a href="https://info.tenable.com/SubscriptionManagement.html">Subscription Management</a> Page.<br><br>Tenable will only process your personal data in accordance with its <a href="https://www.tenable.com/privacy-policy">Privacy Policy</a>.</small></p>
+                                                            </div>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-GCLID__c">
+                                                    <input type="hidden" name="GCLID__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="EAIaIQobChMItvqgpv_ajgMVysh5BB1O9w6KEAAYASAAEgKWXvD_BwE" style="margin-bottom: 10px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-Product_Interest__c">
+                                                    <input type="hidden" name="Product_Interest__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="Tenable Cloud Security" style="margin-bottom: 10px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow" input-name="parent-clearbitFormStatus">
+                                                    <input type="hidden" name="clearbitFormStatus" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoButtonRow"><span class="mktoButtonWrap mktoPurpleCandy" style="margin-left: 120px;"><button type="submit" class="mktoButton" data-synced="yes">Submit</button></span></div>
+                                                <input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="10155"><input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="934-XQB-568"><input type="hidden" name="Country" class="mktoField mktoFieldDescriptor" value="BA"><input type="hidden" name="State" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="PostalCode" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="tieKinetixPartnerAlertEmail" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="LookBookLastViewed__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Promoter__c" class="mktoField mktoFieldDescriptor" value="tenable-cloud-00033359"><input type="hidden" name="UTM_Source__c" class="mktoField mktoFieldDescriptor" value="google"><input type="hidden" name="UTM_Medium__c" class="mktoField mktoFieldDescriptor" value="cpc"><input type="hidden" name="UTM_Campaign__c" class="mktoField mktoFieldDescriptor" value="gs-{17232829325}-{174249380850}-{750277590450}_00033359_fy25"><input type="hidden" name="UTM_Content__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Term__c" class="mktoField mktoFieldDescriptor" value="cloud technology"><input type="hidden" name="PID__c" class="mktoField mktoFieldDescriptor" value="">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Form Modal -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-section">
+                        <h3 class="client-section-title">Join 40,000+ organizations automating their cloud security&nbsp;with the leading
+                            independent provider
+                        </h3>
+                        <div class="client-logos-wrapper">
+                            <picture>
+                                <source media="(max-width:767px)" srcset="https://www.tenable.com/lp/campaigns/20/ot-security-demo/images/client-logos-mob.png">
+                                <source media="(max-width:991px)" srcset="https://www.tenable.com/lp/campaigns/20/ot-security-demo/images/client-logos-tab.png">
+                                <img src="files/client-logos-desk.png" alt="Client Logos">
+                            </picture>
+                        </div>
+                    </div>
+                </section>
+                <!-- Accordian Section -->
+                <section class="risks-section">
+                    <div class="container">
+                        <div class="client-logos-wrapper">
+                            <picture>
+                                <source media="(max-width:767px)" srcset="./img/client-logos-risks.webp">
+                                <source media="(max-width:991px)" srcset="./img/client-logos-risks-t.webp">
+                                <img src="files/client-logos-risks-d.webp" alt="Client Logos">
+                            </picture>
+                        </div>
+                        <h2 class="heading">Cloud security that fits your unique journey
+                        </h2>
+                        <div class="risks-section-wrapper">
+                            <div class="risks-faq-wrapper">
+                                <div class="faq-item">
+                                    <div class="faq-title">Multi-cloud visibility and agentless asset discovery
+                                    </div>
+                                    <div class="faq-text" style="display: block; margin-top: 0px; height: 0px;">
+                                        <div class="faq-block">
+                                            <div class="faq-content">
+                                                <p>Get full visibility across AWS, Azure, GCP, and Oracle Cloud Infrastructure (OCI) with 100%
+                                                    agentless scanning. Continuously discover your cloud environment across infrastructure,
+                                                    workloads, identities, and data, powerfully visualizing all your cloud assets. Obtain a unified
+                                                    view that simplifies your team’s understanding of even the most complex issues.
+                                                </p>
+                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                    Try for free
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                                                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="faq-content-img">
+                                                <picture class="faq-img-mbl">
+                                                    <img src="files/multi-cloud-visibility-desktop.webp" alt="Multi-cloud visibility and agentless asset discovery">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-title">Streamline audit and compliance with automated reporting</div>
+                                    <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
+                                        <div class="faq-block">
+                                            <div class="faq-content">
+                                                <p>Monitor risk by continuously reviewing and assessing cloud environment settings and
+                                                    configurations.
+                                                    By mapping discovered risks against security standards and policies, you can attain and maintain
+                                                    compliance and easily address audits across multi-cloud environments. Take advantage of
+                                                    pre-built
+                                                    reporting for 20+ compliance frameworks including SOC-2, GDPR, PCI DSS,
+                                                    HIPAA, NYDFS, and others.
+                                                </p>
+                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                    Try for free
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                                                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="faq-content-img">
+                                                <picture class="faq-img-mbl">
+                                                    <img src="files/streamline-audit-desktop.webp" alt="Streamline audit and compliance with automated reporting">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-title">Full stack risk analysis and prioritization</div>
+                                    <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
+                                        <div class="faq-block">
+                                            <div class="faq-content">
+                                                <p>Tenable is a cloud security solution that allows you to focus on the risks that matter most.
+                                                    Tenable
+                                                    Cloud Security gives users deeply prioritized findings that empower Security and DevSecOps teams
+                                                    to
+                                                    automate threat detection and remediation efforts at scale. Mitigate and remediate risky
+                                                    privileges
+                                                    and faulty configurations using auto-generated and customizable policies by seamlessly
+                                                    integrating
+                                                    across ticketing, CI/CD pipelines, IaC, and other workflows.
+                                                </p>
+                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                    Try for free
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                                                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                                <div class="faq-content-img">
+                                                    <picture class="faq-img-mbl">
+                                                        <img src="files/full-stack-risk-analysis-and-prioritization.webp" alt="Full stack risk analysis and prioritization">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-title">Advanced threat detection with continuous anomaly detection</div>
+                                    <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
+                                        <div class="faq-block">
+                                            <div class="faq-content">
+                                                <p>Recognize abnormal and suspicious activities by continuously evaluating risk against behavioral
+                                                    baselines. Analyze cloud provider logs and link cloud threats with underlying architecture to
+                                                    show the context associated with each risk quickly.
+                                                </p>
+                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                    Try for free
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                                                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="faq-content-img">
+                                                <picture class="faq-img-mbl">
+                                                    <img src="files/advanced-threat-detection-desktop.webp" alt="Advanced threat detection with continuous anomaly detection">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-item open">
+                                    <div class="faq-title open">Execute least privilege at scale</div>
+                                    <div class="faq-text open" style="margin-top: 0px; height: 275px; display: block;">
+                                        <div class="faq-block">
+                                            <div class="faq-content">
+                                                <p>Build zero trust in your cloud security infrastructure. Minimize excessive permissions for
+                                                    services &amp; humans, without breaking anything. The pathway to least privilege starts with a
+                                                    full
+                                                    and accurate picture of all entitlements. Continuously discover all entities and policies
+                                                    (including
+                                                    IAM, resource, permissions boundaries, and ACLs) in the environment and analyze the
+                                                    relationships
+                                                    to reveal the gap between desired enterprise policy and actual entitlements.
+                                                </p>
+                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                    Try for free
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                                                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="faq-content-img open">
+                                                <picture class="faq-img-mbl">
+                                                    <img src="files/execute-least-privilege-at-scale-desktop.webp" alt="Execute least privilege at scale">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="risks-img-wrapper">
+                                <img src="files/multi-cloud-visibility-desktop.webp" class="faq-img" alt="Multi-Cloud Visibility and Agentless Asset Discovery" title="Multi-Cloud Visibility and Agentless Asset Discovery" data-expanded-src="./img/RealizeDesktop.jpg">
+                                <img src="files/streamline-audit-desktop.webp" class="faq-img" alt="Streamline Audit and Compliance with Automated Reporting" title="Streamline Audit and Compliance with Automated Reporting" data-expanded-src="./img/DetectDesktop.png">
+                                <img src="files/full-stack-risk-analysis-and-prioritization.webp" class="faq-img" title="Full Stack Risk Analysis and Prioritization" alt="Full Stack Risk Analysis and Prioritization" data-expanded-src="./img/GainDesktop.jpg">
+                                <img src="files/advanced-threat-detection-desktop.webp" class="faq-img" title="Advanced Threat Detection with Continuous Anomaly Detection" alt="Advanced Threat Detection with Continuous Anomaly Detection" data-expanded-src="./images/speed-up-incident-response.jpg">
+                                <img src="files/execute-least-privilege-at-scale-desktop.webp" class="faq-img open" title="Execute Least Privilege at Scale" alt="Execute Least Privilege at Scale" data-expanded-src="./img/StreamlineDesktop.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="form-content">
-              <div class="try-buy-modal tenableio tenableio-vm modal-demo js-tab-wrap marketo-2017" id="tenable-cs">
-                <div class="try-buy-modal__nav">
+            <section class="risks-section__pattern">
+                <img class="pattern-xl-desktop" src="files/pattern-xl-desktop.svg" alt="Risks Section Pattern">
+                <img class="pattern-desktop" src="files/pattern-desktop.svg" alt="Risks Section Pattern">
+                <img class="pattern-tablet" src="files/pattern-tablet.svg" alt="Risks Section Pattern">
+                <img class="pattern-mobile" src="files/pattern-mobile.svg" alt="Risks Section Pattern">
+            </section>
+            <!-- end -->
+            <!-- E-book Section -->
+            <div class="bg-l-blue">
+                <div class="section-ebook">
+                    <div class="container">
+                        <div class="e-book-wrap">
+                            <div class="content-wrap">
+                                <div class="title">Learn how a comprehensive Cloud Native Application Protection Platform (CNAPP) can
+                                    streamline security for multi-cloud environments
+                                </div>
+                                <p>Read the eBook for insight into:</p>
+                                <ul>
+                                    <li><span></span>How to protect workloads and manage vulnerabilities</li>
+                                    <li><span></span>Securing identities and entitlements and enforcing least privilege</li>
+                                    <li><span></span>Ways to accelerate cloud detection and response</li>
+                                    <li><span></span>How to assess and prioritize risk across cloud environments</li>
+                                </ul>
+                                <a class="read-e-book" target="_blank" href="https://www.tenable.com/whitepapers/holistic-security-for-aws-azure-and-gcp">Read our
+                                eBook</a>
+                            </div>
+                            <div class="img-wrap">
+                                <img src="files/7steps-book-desktop.webp" alt="E-book">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="try-buy-modal__content try js-tab-content js-active content-01">
-                  <div class="try-buy-modal__content-l">
-                    <h3 class="uppercase mb">Request a demo of Tenable Cloud Security</h3>
-                    <p class="tbm-sub-heading">Exceptional unified cloud security awaits you!</p>
-                    <p class="mt">We'll show you exactly how Tenable Cloud Security helps you deliver
-                      multi-cloud asset discovery, prioritized risk assessments and <br>automated compliance/audit
-                      reports.</p>
-                  </div>
-                  <div class="try-buy-modal__form buy">
-                    <form id="mktoForm_10155" data-followup="https://www.tenable.com/products/tenable-cloud-security/evaluate/thank-you" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutLeft" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51); width: 501px;">
-                    <style type="text/css" nonce="">.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton {
-background-color: #9e76e8;
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9e76e8), color-stop(50%, #7038e0), color-stop(50%, #6021de), color-stop(100%, #6224de));
-background-image: -webkit-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-background-image: -moz-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-background-image: -ms-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-background-image: -o-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-background-image: linear-gradient(to bottom, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-border-radius: 3px;
-color: #fff;
-font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
-padding: 10px 0 12px 0;
-text-align: center;
-text-shadow: 0 -1px 1px #473569;
-width: 150px;
--webkit-background-clip: padding-box;
-border:none;
-}
-.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover {
-background-color: #8d69cf;
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8d69cf), color-stop(50%, #6332c7), color-stop(50%, #551dc4), color-stop(100%, #561fc4));
-background-image: -webkit-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
-background-image: -moz-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
-background-image: -ms-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
-background-image: -o-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
-background-image: linear-gradient(to bottom, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
--webkit-background-clip: padding-box;
-cursor: pointer;
-}
-.mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:active {
-background: #4a1aab;
-background: -moz-radial-gradient(50% 31% 0deg, circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)), -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
-background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
-color: #ddd;
--webkit-background-clip: padding-box;
-}
-
-.mktoForm .mktoButtonWrap.mktoPurpleCandy button.mktoButton {background:#0079DD;}
-</style><div class="mktoFormRow" input-name="parent-FirstName"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="FirstName_17536937260950.17335836726588105" id="LblFirstName" class="mktoLabel mktoHasWidth" style="width: 116px;"><div class="mktoAsterix">*</div>First Name</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="FirstName_17536937260950.17335836726588105" name="FirstName" maxlength="255" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-LastName"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="LastName_17536937260950.17335836726588105" id="LblLastName" class="mktoLabel mktoHasWidth" style="width: 116px;"><div class="mktoAsterix">*</div>Last Name</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="LastName_17536937260950.17335836726588105" name="LastName" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-Email"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Email_17536937260950.17335836726588105" id="LblEmail" class="mktoLabel mktoHasWidth" style="width: 116px;"><div class="mktoAsterix">*</div>Email Address</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Email_17536937260950.17335836726588105" name="Email" maxlength="255" aria-labelledby="LblEmail InstructEmail" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-Comments__c"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap"><label for="Comments__c_17536937260950.17335836726588105" id="LblComments__c" class="mktoLabel mktoHasWidth" style="width: 116px;"><div class="mktoAsterix">*</div>Comments (Limited to 255 characters):</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><textarea id="Comments__c_17536937260950.17335836726588105" name="Comments__c" rows="2" aria-labelledby="LblComments__c InstructComments__c" class="mktoField mktoHasWidth" maxlength="255" style="width: 155px;"></textarea><span id="InstructComments__c" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-Employee_Range__c"><input type="hidden" name="Employee_Range__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-noinput"><div class="mktoPlaceholder mktoPlaceholderTitle"></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-noinput"><div class="mktoPlaceholder mktoPlaceholderCompany"></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-noinput"><div class="mktoPlaceholder mktoPlaceholderPhone"></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-triggerGDPR"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px; display: none;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap"><label for="triggerGDPR" id="LbltriggerGDPR" class="mktoLabel mktoHasWidth" style="width: 200px;"><div class="mktoAsterix">*</div></label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><div class="mktoLogicalField mktoCheckboxList mktoHasWidth" style="width: inherit;"><input name="triggerGDPR" id="mktoCheckbox_105323_0_17536937260950.17335836726588105" type="checkbox" value="yes" aria-labelledby="LbltriggerGDPR LblmktoCheckbox_105323_0 InstructtriggerGDPR" class="mktoField"><label for="mktoCheckbox_105323_0_17536937260950.17335836726588105" id="LblmktoCheckbox_105323_0">I would like to receive marketing communications from Tenable regarding its products and services.</label></div><span id="InstructtriggerGDPR" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-noinput"><div class="mktoFormCol" style="margin-bottom: 10px; display: none;"><div class="mktoOffset mktoHasWidth" style="width: 10px;"></div><div class="mktoFieldWrap"><div class="mktoHtmlText mktoHasWidth" style="width: inherit;"><p class="gdpr-text" style="max-width: 100%; line-height: 12px; padding-bottom: 20px;"><small>By submitting your information on this page, Tenable may send you email communications regarding its products and services. You may opt out of receiving these communications at any time by using the unsubscribe link located in the footer of the emails delivered to you. You can also manage your Tenable email preferences by visiting the <a href="https://info.tenable.com/SubscriptionManagement.html">Subscription Management</a> Page.<br><br>Tenable will only process your personal data in accordance with its <a href="https://www.tenable.com/privacy-policy">Privacy Policy</a>.</small></p></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-GCLID__c"><input type="hidden" name="GCLID__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="EAIaIQobChMItvqgpv_ajgMVysh5BB1O9w6KEAAYASAAEgKWXvD_BwE" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-Product_Interest__c"><input type="hidden" name="Product_Interest__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="Tenable Cloud Security" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow" input-name="parent-clearbitFormStatus"><input type="hidden" name="clearbitFormStatus" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoButtonRow"><span class="mktoButtonWrap mktoPurpleCandy" style="margin-left: 120px;"><button type="submit" class="mktoButton" data-synced="yes">Submit</button></span></div><input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="10155"><input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="934-XQB-568"><input type="hidden" name="Country" class="mktoField mktoFieldDescriptor" value="BA"><input type="hidden" name="State" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="PostalCode" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="tieKinetixPartnerAlertEmail" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="LookBookLastViewed__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Promoter__c" class="mktoField mktoFieldDescriptor" value="tenable-cloud-00033359"><input type="hidden" name="UTM_Source__c" class="mktoField mktoFieldDescriptor" value="google"><input type="hidden" name="UTM_Medium__c" class="mktoField mktoFieldDescriptor" value="cpc"><input type="hidden" name="UTM_Campaign__c" class="mktoField mktoFieldDescriptor" value="gs-{17232829325}-{174249380850}-{750277590450}_00033359_fy25"><input type="hidden" name="UTM_Content__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Term__c" class="mktoField mktoFieldDescriptor" value="cloud technology"><input type="hidden" name="PID__c" class="mktoField mktoFieldDescriptor" value=""></form>
-                  </div>
+                <div class="blue-overlay">
+                    <!-- operational section -->
+                    <div class="operational-section">
+                        <div class="container">
+                            <div class="block-wrapper">
+                                <div class="block">
+                                    <div class="top-block">
+                                        <div class="icon">
+                                            <img src="files/feature-01.svg" alt="Complete visibility">
+                                        </div>
+                                        <h3 class="title">Complete visibility</h3>
+                                    </div>
+                                    <p class="content">See all of your cloud assets and exposure</p>
+                                    <ul>
+                                        <li>Visibility of asset inventory across clouds in just five minutes</li>
+                                        <li>360° view of asset configuration and exposure across clouds and on-prem including
+                                            misconfigurations, CVEs, identities&nbsp;
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="block">
+                                    <div class="top-block">
+                                        <div class="icon">
+                                            <img src="files/feature-02.svg" alt="Reduced exposure">
+                                        </div>
+                                        <h3 class="title">Reduced exposure</h3>
+                                    </div>
+                                    <p class="content">Prioritize remediation based on true risk exposure</p>
+                                    <ul>
+                                        <li>Runtime vulnerability to IaC code mapping to fix security issues at the source</li>
+                                        <li>Contextual analysis into toxic combinations that create the most vulnerable attack
+                                            pathways
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="block">
+                                    <div class="top-block">
+                                        <div class="icon">
+                                            <img src="files/feature-03.svg" alt="Continuous governance">
+                                        </div>
+                                        <h3 class="title">Continuous governance</h3>
+                                    </div>
+                                    <p class="content">Ensure ongoing compliance with mandates</p>
+                                    <ul>
+                                        <li>One-click reporting from a <br>single console for CIS, AWS Well-Architected, GDPR,
+                                            HIPAA, ISO, NIST, <br class="br"> PCI, SOC2, NYDFS 23 and NYCRR
+                                        </li>
+                                        <li>Step-by-step remediation advice in easy-to-understand terms</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Learn More Section Start-->
+                    <section class="explore-section">
+                        <div class="container">
+                            <div class="explore_row">
+                                <h4 class="title">Learn how a comprehensive, vendor-neutral <br> Cloud Native Application Protection
+                                    Platform (CNAPP)<br> can streamline security for <br class="tablet-word-breck"> multi-cloud environments
+                                </h4>
+                                <button href="javascript:void(0)" class="cta-try-free">Try for free</button>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Learn More Section end -->
                 </div>
-              </div><!-- End Form Modal -->
             </div>
-          </div>
-        </div>
-        <div class="client-section">
-          <h3 class="client-section-title">Join 40,000+ organizations automating their cloud security&nbsp;with the leading
-            independent provider</h3>
-          <div class="client-logos-wrapper">
-            <picture>
-              <source media="(max-width:767px)" srcset="https://www.tenable.com/lp/campaigns/20/ot-security-demo/images/client-logos-mob.png">
-              <source media="(max-width:991px)" srcset="https://www.tenable.com/lp/campaigns/20/ot-security-demo/images/client-logos-tab.png">
-              <img src="files/client-logos-desk.png" alt="Client Logos">
-            </picture>
-          </div>
-        </div>
-      </section>
-      <!-- Accordian Section -->
-      <section class="risks-section">
-        <div class="container">
-          <div class="client-logos-wrapper">
-            <picture>
-              <source media="(max-width:767px)" srcset="./img/client-logos-risks.webp">
-              <source media="(max-width:991px)" srcset="./img/client-logos-risks-t.webp">
-              <img src="files/client-logos-risks-d.webp" alt="Client Logos">
-            </picture>
-          </div>
-          <h2 class="heading">Cloud security that fits your unique journey
-          </h2>
-          <div class="risks-section-wrapper">
-            <div class="risks-faq-wrapper">
-              <div class="faq-item">
-                <div class="faq-title">Multi-cloud visibility and agentless asset discovery
-                </div>
-                <div class="faq-text" style="display: block; margin-top: 0px; height: 0px;">
-                  <div class="faq-block">
-                    <div class="faq-content">
-                      <p>Get full visibility across AWS, Azure, GCP, and Oracle Cloud Infrastructure (OCI) with 100%
-                        agentless scanning. Continuously discover your cloud environment across infrastructure,
-                        workloads, identities, and data, powerfully visualizing all your cloud assets. Obtain a unified
-                        view that simplifies your team’s understanding of even the most complex issues.</p>
-                      <a href="javascript:void(0)" class="cta-try-free">Try for free
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
-                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
-                          </svg>
-                        </span>
-                      </a>
+            <!-- footer start -->
+            <section class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="copyright">
+                            ©2025 Tenable® Inc. All rights reserved.
+                        </div>
+                        <div class="footer-links">
+                            <a href="https://www.tenable.com/privacy-policy" target="_blank">Privacy policy</a>
+                            <span></span>
+                            <a href="https://www.tenable.com/privacy-policy#california-rights" target="_blank">Do not sell/share my
+                            personal information</a>
+                            <span></span>
+                            <a href="https://www.tenable.com/legal" target="_blank">Legal</a>
+                            <span></span>
+                            <a href="https://www.tenable.com/section-508-voluntary-product-accessibility" target="_blank">508
+                            compliance</a>
+                        </div>
                     </div>
-                    <div class="faq-content-img">
-                      <picture class="faq-img-mbl">
-                        <img src="files/multi-cloud-visibility-desktop.webp" alt="Multi-cloud visibility and agentless asset discovery">
-                      </picture>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div class="faq-item">
-                <div class="faq-title">Streamline audit and compliance with automated reporting</div>
-                <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
-                  <div class="faq-block">
-                    <div class="faq-content">
-                      <p>Monitor risk by continuously reviewing and assessing cloud environment settings and
-                        configurations.
-                        By mapping discovered risks against security standards and policies, you can attain and maintain
-                        compliance and easily address audits across multi-cloud environments. Take advantage of
-                        pre-built
-                        reporting for 20+ compliance frameworks including SOC-2, GDPR, PCI DSS,
-                        HIPAA, NYDFS, and others.</p>
-                      <a href="javascript:void(0)" class="cta-try-free">Try for free
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
-                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
-                          </svg>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="faq-content-img">
-                      <picture class="faq-img-mbl">
-                        <img src="files/streamline-audit-desktop.webp" alt="Streamline audit and compliance with automated reporting">
-                      </picture>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="faq-item">
-                <div class="faq-title">Full stack risk analysis and prioritization</div>
-                <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
-                  <div class="faq-block">
-                    <div class="faq-content">
-                      <p>Tenable is a cloud security solution that allows you to focus on the risks that matter most.
-                        Tenable
-                        Cloud Security gives users deeply prioritized findings that empower Security and DevSecOps teams
-                        to
-                        automate threat detection and remediation efforts at scale. Mitigate and remediate risky
-                        privileges
-                        and faulty configurations using auto-generated and customizable policies by seamlessly
-                        integrating
-                        across ticketing, CI/CD pipelines, IaC, and other workflows.</p>
-                      <a href="javascript:void(0)" class="cta-try-free">Try for free
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
-                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
-                          </svg>
-                        </span>
-                      </a>
-                      <div class="faq-content-img">
-                        <picture class="faq-img-mbl">
-                          <img src="files/full-stack-risk-analysis-and-prioritization.webp" alt="Full stack risk analysis and prioritization">
-                        </picture>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="faq-item">
-                <div class="faq-title">Advanced threat detection with continuous anomaly detection</div>
-                <div class="faq-text" style="margin-top: 0px; height: 0px; display: block;">
-                  <div class="faq-block">
-                    <div class="faq-content">
-                      <p>Recognize abnormal and suspicious activities by continuously evaluating risk against behavioral
-                        baselines. Analyze cloud provider logs and link cloud threats with underlying architecture to
-                        show the context associated with each risk quickly.</p>
-                      <a href="javascript:void(0)" class="cta-try-free">Try for free
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
-                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
-                          </svg>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="faq-content-img">
-                      <picture class="faq-img-mbl">
-                        <img src="files/advanced-threat-detection-desktop.webp" alt="Advanced threat detection with continuous anomaly detection">
-                      </picture>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="faq-item open">
-                <div class="faq-title open">Execute least privilege at scale</div>
-                <div class="faq-text open" style="margin-top: 0px; height: 275px; display: block;">
-                  <div class="faq-block">
-                    <div class="faq-content">
-                      <p>Build zero trust in your cloud security infrastructure. Minimize excessive permissions for
-                        services &amp; humans, without breaking anything. The pathway to least privilege starts with a
-                        full
-                        and accurate picture of all entitlements. Continuously discover all entities and policies
-                        (including
-                        IAM, resource, permissions boundaries, and ACLs) in the environment and analyze the
-                        relationships
-                        to reveal the gap between desired enterprise policy and actual entitlements.</p>
-                      <a href="javascript:void(0)" class="cta-try-free">Try for free
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
-                            <path d="M5 10L9 14L5 18" stroke="#F4473C" stroke-width="1.5" stroke-linecap="square"></path>
-                          </svg>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="faq-content-img open">
-                      <picture class="faq-img-mbl">
-                        <img src="files/execute-least-privilege-at-scale-desktop.webp" alt="Execute least privilege at scale">
-                      </picture>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="risks-img-wrapper">
-              <img src="files/multi-cloud-visibility-desktop.webp" class="faq-img" alt="Multi-Cloud Visibility and Agentless Asset Discovery" title="Multi-Cloud Visibility and Agentless Asset Discovery" data-expanded-src="./img/RealizeDesktop.jpg">
-              <img src="files/streamline-audit-desktop.webp" class="faq-img" alt="Streamline Audit and Compliance with Automated Reporting" title="Streamline Audit and Compliance with Automated Reporting" data-expanded-src="./img/DetectDesktop.png">
-              <img src="files/full-stack-risk-analysis-and-prioritization.webp" class="faq-img" title="Full Stack Risk Analysis and Prioritization" alt="Full Stack Risk Analysis and Prioritization" data-expanded-src="./img/GainDesktop.jpg">
-              <img src="files/advanced-threat-detection-desktop.webp" class="faq-img" title="Advanced Threat Detection with Continuous Anomaly Detection" alt="Advanced Threat Detection with Continuous Anomaly Detection" data-expanded-src="./images/speed-up-incident-response.jpg">
-              <img src="files/execute-least-privilege-at-scale-desktop.webp" class="faq-img open" title="Execute Least Privilege at Scale" alt="Execute Least Privilege at Scale" data-expanded-src="./img/StreamlineDesktop.jpg">
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <section class="risks-section__pattern">
-      <img class="pattern-xl-desktop" src="files/pattern-xl-desktop.svg" alt="Risks Section Pattern">
-      <img class="pattern-desktop" src="files/pattern-desktop.svg" alt="Risks Section Pattern">
-      <img class="pattern-tablet" src="files/pattern-tablet.svg" alt="Risks Section Pattern">
-      <img class="pattern-mobile" src="files/pattern-mobile.svg" alt="Risks Section Pattern">
-    </section>
-    <!-- end -->
-    <!-- E-book Section -->
-    <div class="bg-l-blue">
-      <div class="section-ebook">
-        <div class="container">
-          <div class="e-book-wrap">
-            <div class="content-wrap">
-              <div class="title">Learn how a comprehensive Cloud Native Application Protection Platform (CNAPP) can
-                streamline security for multi-cloud environments</div>
-              <p>Read the eBook for insight into:</p>
-              <ul>
-                <li><span></span>How to protect workloads and manage vulnerabilities</li>
-                <li><span></span>Securing identities and entitlements and enforcing least privilege</li>
-                <li><span></span>Ways to accelerate cloud detection and response</li>
-                <li><span></span>How to assess and prioritize risk across cloud environments</li>
-              </ul>
-              <a class="read-e-book" target="_blank" href="https://www.tenable.com/whitepapers/holistic-security-for-aws-azure-and-gcp">Read our
-                eBook</a>
-            </div>
-            <div class="img-wrap">
-              <img src="files/7steps-book-desktop.webp" alt="E-book">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blue-overlay">
-        <!-- operational section -->
-        <div class="operational-section">
-          <div class="container">
-            <div class="block-wrapper">
-              <div class="block">
-                <div class="top-block">
-                  <div class="icon">
-                    <img src="files/feature-01.svg" alt="Complete visibility">
-                  </div>
-                  <h3 class="title">Complete visibility</h3>
-                </div>
-                <p class="content">See all of your cloud assets and exposure</p>
-                <ul>
-                  <li>Visibility of asset inventory across clouds in just five minutes</li>
-                  <li>360° view of asset configuration and exposure across clouds and on-prem including
-                    misconfigurations, CVEs, identities&nbsp;</li>
-                </ul>
-              </div>
-              <div class="block">
-                <div class="top-block">
-                  <div class="icon">
-                    <img src="files/feature-02.svg" alt="Reduced exposure">
-                  </div>
-                  <h3 class="title">Reduced exposure</h3>
-                </div>
-                <p class="content">Prioritize remediation based on true risk exposure</p>
-                <ul>
-                  <li>Runtime vulnerability to IaC code mapping to fix security issues at the source</li>
-                  <li>Contextual analysis into toxic combinations that create the most vulnerable attack
-                    pathways</li>
-                </ul>
-              </div>
-              <div class="block">
-                <div class="top-block">
-                  <div class="icon">
-                    <img src="files/feature-03.svg" alt="Continuous governance">
-                  </div>
-                  <h3 class="title">Continuous governance</h3>
-                </div>
-                <p class="content">Ensure ongoing compliance with mandates</p>
-                <ul>
-                  <li>One-click reporting from a <br>single console for CIS, AWS Well-Architected, GDPR,
-                    HIPAA, ISO, NIST, <br class="br"> PCI, SOC2, NYDFS 23 and NYCRR</li>
-                  <li>Step-by-step remediation advice in easy-to-understand terms</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Learn More Section Start-->
-        <section class="explore-section">
-          <div class="container">
-            <div class="explore_row">
-              <h4 class="title">Learn how a comprehensive, vendor-neutral <br> Cloud Native Application Protection
-                Platform (CNAPP)<br> can streamline security for <br class="tablet-word-breck"> multi-cloud environments
-              </h4>
-              <button href="javascript:void(0)" class="cta-try-free">Try for free</button>
-            </div>
-          </div>
-        </section>
-        <!-- Learn More Section end -->
-      </div>
-    </div>
-    <!-- footer start -->
-    <section class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="copyright">
-            ©2025 Tenable® Inc. All rights reserved.
-          </div>
-          <div class="footer-links">
-            <a href="https://www.tenable.com/privacy-policy" target="_blank">Privacy policy</a>
-            <span></span>
-            <a href="https://www.tenable.com/privacy-policy#california-rights" target="_blank">Do not sell/share my
-              personal information</a>
-            <span></span>
-            <a href="https://www.tenable.com/legal" target="_blank">Legal</a>
-            <span></span>
-            <a href="https://www.tenable.com/section-508-voluntary-product-accessibility" target="_blank">508
-              compliance</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- footer end -->
-  </main>
-  </body>
-  </html>
+            </section>
+            <!-- footer end -->
+        </main>
+    </body>
+</html>
