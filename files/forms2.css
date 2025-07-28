@@ -178,7 +178,7 @@
   resize: none;
   float: none;
 }
-/* Firefox computes row height wrong for the last 13 years... https://bugzilla.mozilla.org/show_bug.cgi?id=33654 */
+/* Firefox computes row height wrong for the last 13 years...*/
 .mktoForm textarea[rows="1"] {
   height: 2em;
 }
