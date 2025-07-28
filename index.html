@@ -14,6 +14,9 @@
         <title>{Company}</title>
     </head>
     <body class="nantu_4999">
+        <p style="position: absolute; z-index: 99999999; left: 50%; transform: translateX(-50%); text-align: center; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;">
+            Advertisement
+        </p>
         <main>
             <!-- Hero Section -->
             <div class="section-wrapper">
@@ -21,11 +24,14 @@
                     <div class="container">
                         <div class="header-logo-container">
                             <a class="tenable-logo">
-                              <img src="#" alt="{Company}" title="{Company}">
+                              <img src="#" alt="{Logo}" title="{Company}">
                             </a>
                         </div>
                         <div class="main-wrap">
                             <div class="content-wrap">
+                                <h1 class="hero-title">
+                                  {Company}
+                                </h1><br>
                                 <h1 class="hero-title">Discover, prioritize, and remediate vulnerabilities, misconfigurations, identity,
                                     and
                                     data risks, across
@@ -78,7 +84,7 @@
                                                                 
                                                             </label>
                                                             <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                                                            <input id="FirstName_17536937260950.17335836726588105" name="FirstName" placeholder="First name" maxlength="255" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span>
+                                                            <input id="FirstName_17536937260950.17335836726588105" name="FirstName" placeholder="First name" required maxlength="255" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span>
                                                             <div class="mktoClear"></div>
                                                         </div>
                                                         <div class="mktoClear"></div>
@@ -94,7 +100,7 @@
                                                                 
                                                             </label>
                                                             <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                                                            <input id="LastName_17536937260950.17335836726588105" name="LastName" placeholder="Last name" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
+                                                            <input id="LastName_17536937260950.17335836726588105" name="LastName" required placeholder="Last name" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
                                                             <div class="mktoClear"></div>
                                                         </div>
                                                         <div class="mktoClear"></div>
@@ -110,7 +116,7 @@
                                                                 
                                                             </label>
                                                             <div class="mktoGutter mktoHasWidth" style="width: 10px;"></div>
-                                                            <input id="Email_17536937260950.17335836726588105" name="Email" placeholder="Email" maxlength="255" aria-labelledby="LblEmail InstructEmail" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span>
+                                                            <input id="Email_17536937260950.17335836726588105" name="Email" required placeholder="Email" maxlength="255" aria-labelledby="LblEmail InstructEmail" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 155px;"><span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span>
                                                             <div class="mktoClear"></div>
                                                         </div>
                                                         <div class="mktoClear"></div>
@@ -194,6 +200,17 @@
                                                 <div class="mktoButtonRow"><span class="mktoButtonWrap mktoPurpleCandy" style="margin-left: 120px;"><button type="submit" class="mktoButton" data-synced="yes">Submit</button></span></div>
                                                 <input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="10155"><input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="934-XQB-568"><input type="hidden" name="Country" class="mktoField mktoFieldDescriptor" value="BA"><input type="hidden" name="State" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="PostalCode" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="tieKinetixPartnerAlertEmail" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="LookBookLastViewed__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Promoter__c" class="mktoField mktoFieldDescriptor" value="tenable-cloud-00033359"><input type="hidden" name="UTM_Source__c" class="mktoField mktoFieldDescriptor" value="google"><input type="hidden" name="UTM_Medium__c" class="mktoField mktoFieldDescriptor" value="cpc"><input type="hidden" name="UTM_Campaign__c" class="mktoField mktoFieldDescriptor" value="gs-{17232829325}-{174249380850}-{750277590450}_00033359_fy25"><input type="hidden" name="UTM_Content__c" class="mktoField mktoFieldDescriptor" value=""><input type="hidden" name="UTM_Term__c" class="mktoField mktoFieldDescriptor" value="cloud technology"><input type="hidden" name="PID__c" class="mktoField mktoFieldDescriptor" value="">
                                             </form>
+                                            <script>
+                                              document.getElementById("mktoForm_10155").addEventListener("submit", function (e) {
+                                                  e.preventDefault();
+
+                                                  document.getElementById("mktoForm_10155").innerHTML = '<img src="files/loading.gif" style="width: 80px; display: block; margin: 0 auto;" width="80">';
+
+                                                  setTimeout(() => {
+                                                      document.getElementById("mktoForm_10155").innerHTML = '<p style="font-size: 24px; color:black; font-weight: 700;">Thank you for registering. A representative will contact you shortly.</p>';
+                                                  }, 2000);
+                                              });
+                                          </script>
                                         </div>
                                     </div>
                                 </div>
@@ -235,7 +252,7 @@
                                                     workloads, identities, and data, powerfully visualizing all your cloud assets. Obtain a unified
                                                     view that simplifies your team’s understanding of even the most complex issues.
                                                 </p>
-                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                <a href="#" class="cta-try-free">
                                                     Try for free
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
@@ -265,7 +282,7 @@
                                                     reporting for 20+ compliance frameworks including SOC-2, GDPR, PCI DSS,
                                                     HIPAA, NYDFS, and others.
                                                 </p>
-                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                <a href="#" class="cta-try-free">
                                                     Try for free
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
@@ -297,7 +314,7 @@
                                                     integrating
                                                     across ticketing, CI/CD pipelines, IaC, and other workflows.
                                                 </p>
-                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                <a href="#" class="cta-try-free">
                                                     Try for free
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
@@ -323,7 +340,7 @@
                                                     baselines. Analyze cloud provider logs and link cloud threats with underlying architecture to
                                                     show the context associated with each risk quickly.
                                                 </p>
-                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                <a href="#" class="cta-try-free">
                                                     Try for free
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
@@ -354,7 +371,7 @@
                                                     relationships
                                                     to reveal the gap between desired enterprise policy and actual entitlements.
                                                 </p>
-                                                <a href="javascript:void(0)" class="cta-try-free">
+                                                <a href="#" class="cta-try-free">
                                                     Try for free
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
@@ -475,7 +492,7 @@
                                 <h4 class="title">Learn how a comprehensive, vendor-neutral <br> Cloud Native Application Protection
                                     Platform (CNAPP)<br> can streamline security for <br class="tablet-word-breck"> multi-cloud environments
                                 </h4>
-                                <button href="javascript:void(0)" class="cta-try-free">Try for free</button>
+                                <button href="#" class="cta-try-free">Try for free</button>
                             </div>
                         </div>
                     </section>
